@@ -40,4 +40,13 @@ $ ros run
 (defun function_name (arguments) ...)
 ```
 
+### NILとは
+
+`(eq nil ())`
+
+メモリの番地先がない場合がNILとして扱われるみたいな。
+
+すべてがリスト構造として扱われている
+
+
 
