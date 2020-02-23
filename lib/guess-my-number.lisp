@@ -22,7 +22,6 @@
   (setf *small* (1+ (guess-my-number)))
   (guess-my-number))
 
-
 (defun start-over()
   (defparameter *small* 1)
   (defparameter *big* 100)
@@ -33,5 +32,10 @@
       (b 6))
   (+ a b))
 ; -> 11
+
+(flet (( sample-function (n)
+                         (+ n 10)))
+  (sample-function 5))
+; -> 15
 
 
