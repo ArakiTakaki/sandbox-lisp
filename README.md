@@ -48,5 +48,14 @@ $ ros run
 
 すべてがリスト構造として扱われている
 
+### cons
+
+リスト構造を作成する
+
+(cons 'hello 'world)
+-> ( HELLO . WORLD )
+
+ちなみにシンボルならこう言うふうに記述できる。
+'(HELLO WORLD)
 
 

@@ -59,3 +59,6 @@
 ; printのサンプル
 
 
+(cons 'sample 'test)
+
+
