@@ -17,3 +17,27 @@ $ ros run
 ```
 
 
+## Lisp Documentation
+
+### グローバル変数の定義
+
+```lisp
+; 変数
+(defparameter HOGE attribute) 
+
+; 定数
+(defvar hoge attribute)
+```
+#### 命名規則
+
+- グローバル変数には耳あてをつける
+    - example `*hoge*`
+    - アスタリスクに関しては特に意味があるわけではなく、好まれて記述されているため、反する意味は無いと思う
+
+### 独自関数
+
+```lisp
+(defun function_name (arguments) ...)
+```
+
+
